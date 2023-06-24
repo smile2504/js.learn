@@ -1,3 +1,4 @@
+/********************* Conversion *************************/
 let age = 23
 let uid = "21BCS8101"
 let abc = null
@@ -51,3 +52,27 @@ console.log(typeof value8);
 let value9 = Boolean(x5)
 console.log(typeof value9);
 console.log(value9);
+
+/******************** Operations *************************/
+
+console.log(2+2)
+console.log(2-2);
+console.log(2*2)
+console.log(2**3);
+console.log(2/2)
+console.log(2%2)
+
+let str1 = "Saurabh"
+let str2 = " Sen"
+console.log(str1 + str2)
+
+console.log(1 + 1 + "1")
+console.log("1" + 1 + 1);
+
+let num1 = 100
+num1++
+console.log(num1);
+
+let num2 = 10
+++num2
+console.log(num2)
