@@ -1,4 +1,4 @@
-//Object Literals
+//### Object Literals / Non-singleton object
 
 //***Adding symbol in object */
 const mySym = Symbol("Key1")
