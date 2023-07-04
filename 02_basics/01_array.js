@@ -2,11 +2,11 @@
 
 // # Array declaration
 const myArr = [1, 2, 3, 4, 5]
-// console.log(myArr);
+console.log(myArr);
 
 // Another method to declare array
 const myArr1 = new Array(1, 2, 3, 4, 5)
-// console.log(myArr1);
+console.log(myArr1);
 
 console.log(myArr[0]); //0 is index vlue of array here
 

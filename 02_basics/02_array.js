@@ -1,5 +1,5 @@
 const marvel_heroes = ["thor", "ironman", "spiderman"]
-const  dc_heroes = ["spiderman", "flash", "batman"]
+const  dc_heroes = ["superman", "flash", "batman"]
 // marvel_heroes.push(dc_heroes)  //push method "dc_heroes" array into "marvel_heroes" array by make whole "dc_heroes" as asingle element.
 // console.log(marvel_heroes);
 
