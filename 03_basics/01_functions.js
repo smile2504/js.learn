@@ -65,3 +65,19 @@ function handleArray(anyArray) {
 }
 console.log(handleArray(myNewArray));
 
+
+
+
+/****************  Function Revision */
+
+function BioData(num1, num2) {
+    let sum = num1+ num2;
+    console.log(`Saurabh Sen`);
+    console.log(`Chandigarh University`);
+    return sum;
+    
+}
+// console.log(BioData(2, 7));
+
+// BioData()
+
