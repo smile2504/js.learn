@@ -1,8 +1,10 @@
 const name = "saurabh"
+console.log(name);
+console.log(`${name}`);
 const repoCount = 50
 
-console.log("My name is " + name + " and my repo count is " + repoCount)
-console.log(`My name is ${name} and my repo count is ${repoCount}`)
+console.log("My name is " + name + " and my repo count is " + repoCount)   // It is outdated methd
+console.log(`My name is ${name} and my repo count is ${repoCount}`)  // It is modern method
 
 //Another method to declare strings
 
