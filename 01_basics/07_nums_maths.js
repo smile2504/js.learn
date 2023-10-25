@@ -28,8 +28,8 @@ console.log(num2.toLocaleString('en-IN'));
 //Various other methods are
 console.log(Number.MAX_VALUE); //to know thw maximum number possible in JavaScript
 console.log(Number.MIN_VALUE);  //to know thw minimum number possible in JavaScript
-console.log(Number.MAX_SAFE_INTEGER);  //to know thw maximum safe number possible in JavaScript
-console.log(Number.MIN_SAFE_INTEGER);  //to know thw minimum number possible in JavaScript
+console.log(Number.MAX_SAFE_INTEGER);  //to know the maximum safe number possible in JavaScript
+console.log(Number.MIN_SAFE_INTEGER);  //to know the minimum number possible in JavaScript
 console.log(Number.NEGATIVE_INFINITY); 
 console.log(Number.POSITIVE_INFINITY); 
 console.log(Number.NaN); 
