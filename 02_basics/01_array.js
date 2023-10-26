@@ -40,9 +40,11 @@ console.log(newArr);
 
 const myArr2 = myArr1.slice(1,2)
 console.log("A ", myArr2);
+console.log(myArr1);
 
 const myArr3 = myArr1.splice(1,2)
 console.log("B ", myArr3);
+console.log(myArr1);
 
 //Note: The slice() method can be used to create a copy of an array or return a portion of an array. 
 //It is important to note that the slice() method does not alter the original array but instead creates a shallow copy. 

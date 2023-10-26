@@ -1,5 +1,6 @@
 const marvel_heroes = ["thor", "ironman", "spiderman"]
 const  dc_heroes = ["superman", "flash", "batman"]
+const indian_heroes = new Array("Shaktimaan", "Krrish")
 // marvel_heroes.push(dc_heroes)  //push method "dc_heroes" array into "marvel_heroes" array by make whole "dc_heroes" as asingle element.
 // console.log(marvel_heroes);
 
@@ -9,7 +10,7 @@ const all_heroes = marvel_heroes.concat(dc_heroes)
 console.log(all_heroes);
 
 //* Spread method
-const allNewHero = [...marvel_heroes, ...dc_heroes]
+const allNewHero = [...marvel_heroes, ...dc_heroes, ...indian_heroes]
 console.log(allNewHero);
 //* Note : concat and spread both method are same but only difference is that spread method is more preferred and it can combine more than two array in easy way.
 
