@@ -28,12 +28,12 @@ let myDateTime = new Date(2023, 06, 26, 8, 52)
 console.log(myDateTime.toLocaleString());
 
 //# Time stamp
-let myTimeStamp = Date.now() //we can write "new Date()" or "Date.now()"
+let myTimeStamp = Date.now() //"Date.now()" give the time in milliseconds
 console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());
 
 //# Time stamp is always in milliseconds 
-//# To convert it into seconds divide it by 1000. So that it can make aour comparison easier.
+//# To convert it into seconds divide it by 1000. So that it can make our comparison easier.
 
 console.log(Math.floor(Date.now()/1000)); //"Math.floor" is used to take the adjact value
 
