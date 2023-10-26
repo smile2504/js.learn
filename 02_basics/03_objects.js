@@ -19,7 +19,7 @@ const myBio = {
 
 // console.log(myBio); // method to print all the value of object
 myBio.location = "Chandigarh" //method to change the value present inside object
-// console.log(myBio);
+console.log(myBio);
 
 console.log(myBio[mySym]); //method to print the symbol
 
@@ -35,8 +35,9 @@ myBio.greeting = function(){
 myBio.greeting2 = function(){
     console.log(`Hello, ${this.name}`);
 }
- console.log(myBio.greeting()); //method to print the function added in object
- console.log(myBio.greeting2());
+//  console.log(myBio.greeting()); //method to print the function added in object
+//  console.log(myBio.greeting2());
+//  console.log(myBio);
 
 
 
