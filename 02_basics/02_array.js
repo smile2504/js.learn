@@ -1,7 +1,7 @@
 const marvel_heroes = ["thor", "ironman", "spiderman"]
 const  dc_heroes = ["superman", "flash", "batman"]
 const indian_heroes = new Array("Shaktimaan", "Krrish")
-// marvel_heroes.push(dc_heroes)  //push method "dc_heroes" array into "marvel_heroes" array by make whole "dc_heroes" as asingle element.
+// marvel_heroes.push(dc_heroes)  //push method "dc_heroes" array into "marvel_heroes" array by make whole "dc_heroes" as a single element.
 // console.log(marvel_heroes);
 
 
@@ -23,6 +23,7 @@ console.log(real_array2);
 console.log(real_array3);
 //* Note: the value inside flat(i.e 1, 2,Infinity) is used to remove the square bracket depth. Understand it by running the code
 
+console.log(Array.isArray("Saurabh"));
 console.log(Array.from("Saurabh"));  //it is use to make array of each element of strings, object etc.
 
 let num1 =100
