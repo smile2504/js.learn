@@ -45,3 +45,13 @@ console.log(tinderuser.hasOwnProperty('isLoggedIn')); //this method in object is
 
 
 
+const myInfo = {
+    name: "Saurabh Sen",
+    village: "Chharapatti",
+    postOffice: "Baskhora",
+    policeStation: "Marona"
+}
+
+const {village: vill} = myInfo  //De-Structuring of Object to make the calling simple
+console.log(vill);
+
